@@ -1,7 +1,6 @@
-from new_elastic import ElasticHashTableSHA256
-from new_funnel import FunnelHashTableSHA256
-from uniform_hashing_sha import UniformHashingSHA256
-import matplotlib.pyplot as plt
+from elastic_hashing import ElasticHashTableSHA256
+from funnel_hashing import FunnelHashTableSHA256
+from uniform_probing import UniformHashingSHA256
 import numpy as np
 import csv
 
